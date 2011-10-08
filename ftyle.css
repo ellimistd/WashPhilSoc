@@ -52,24 +52,35 @@ height:50;
 
 div.middle{
 padding:5px;
-height:500px;
+height:400px;
 }
 
 div.col1{
 width:640px;
 float:left;
-border:1px solid black;
+
 }
 
 div.about{
 border:1px solid black;
 margin-bottom:5px;
+padding:5px;
 }
 div.next{
+padding:5px;
 border: 1px solid black;
 }
 div.nexttitle{
- height:50px;
+ background-color:#D6D6D6;
+ width:630px;
+ height:55px;
+ clear:both;
+ margin-bottom:5px
+}
+div.nexttitletext{
+float:left;
+padding-top:5px;
+margin-left:5px;
 }
 div.nextabstract{
 }
@@ -81,8 +92,18 @@ border: 1px solid black;
 width:340px;
 float:right;
 }
+div.upcomingtitle{
+height:50px;
+}
+h4{
+margin:0;
+padding:0;
+}
+div.upcominglist{
+}
 
 div.footer{
+margin-top:5px;
 border: 1px solid black;
 clear:both;
 }
