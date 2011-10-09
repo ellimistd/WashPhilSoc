@@ -1,7 +1,7 @@
 
-body {
+html,body {
 margin:0 0 0 0;
-
+height:100%;
 
 }
 
@@ -9,7 +9,7 @@ div.wrap{
 width:1000px;
 margin-left:20%;
 background-color:#F2F2F2;
-height:100%;
+min-height:100%;
 }
 
 div.header{
@@ -89,13 +89,22 @@ float:left;
 }
 
 div.about{
-border:1px solid black;
+background-color:#E6E6E6;
 margin-bottom:5px;
 padding:5px;
 }
+
+div.titlenext{
+background-color:#B5B5B5;
+padding-left:5px;
+padding-top:2px;
+padding-bottom:2px;
+font-size:100%;
+font-family:Verdana;
+font-weight:bold;
+}
 div.next{
 padding:5px;
-border: 1px solid black;
 background-color:#E6E6E6;
 }
 div.nexttitle{
@@ -138,8 +147,12 @@ div.upcominglist{
 }
 
 div.footer{
-margin-top:5px;
-border: 1px solid black;
-clear:both;
+margin-left:20%;
+width:1000px;
+background-color:#E6E6E6;
+position: relative;
+margin-top: -100px; /* negative value of footer height */
+height:100px;
+clear:both;    
 }
 
