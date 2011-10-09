@@ -132,18 +132,41 @@ background-color:#B5B5B5;
 }
 
 div.upcoming{
-border: 1px solid black;
+
 width:340px;
 float:right;
+
+}
+div.titleupcoming{
+padding:2px;
+background-color:#B5B5B5;
+height:60px;
+}
+ul.upcoming{
+margin:0;
+list-style:none;
+padding-left:0px;
+height:400px;
+overflow:auto;
+
+}
+li.upcoming{
+margin-top:2px;
+background-color:#B5B5B5;
+padding-left:2px;
 }
 div.upcomingtitle{
-height:50px;
+font-weight:bold;
 }
+
 h4{
 margin:0;
 padding:0;
 }
 div.upcominglist{
+background-color:#E6E6E6;
+padding:5px;
+
 }
 
 div.footer{
