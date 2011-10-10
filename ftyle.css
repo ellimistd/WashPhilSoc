@@ -12,6 +12,7 @@ margin-right:auto;
 background-color:white;
 min-height:100%;
 padding-bottom:20px;
+margin-bottom:20px;
 }
 
 div.header{
@@ -101,11 +102,11 @@ clear:none;
 
 div.middle{
 padding:5px;
-height:400px;
+margin-bottom:10px;
 }
 
 div.col1{
-width:640px;
+width:641px;
 float:left;
 margin-right:5px;
 
@@ -157,6 +158,8 @@ background-color:#B5B5B5;
 
 div.largeinfo{
 background-color:#e6e6e6;
+clear:both;
+margin-top:5px;
 }
 p{
 margin-left:5px;
@@ -180,7 +183,7 @@ ul.upcoming{
 margin:0;
 list-style:none;
 padding-left:0px;
-height:400px;
+height:318px;
 overflow:auto;
 
 }
@@ -188,6 +191,9 @@ li.upcoming{
 margin-top:2px;
 background-color:#B5B5B5;
 padding-left:2px;
+}
+li.upcoming:hover{
+background-color:#828282;
 }
 div.upcomingtitle{
 font-weight:bold;
@@ -225,8 +231,8 @@ margin-right:auto;
 width:1000px;
 background-color:#E6E6E6;
 position: relative;
-margin-top: -100px; /* negative value of footer height */
-height:100px;
+margin-top: -60px; /* negative value of footer height */
+height:60px;
 clear:both;    
 }
 
