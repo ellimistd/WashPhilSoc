@@ -7,7 +7,8 @@ height:100%;
 
 div.wrap{
 width:1000px;
-margin-left:20%;
+margin-left:auto;
+margin-right:auto;
 background-color:white;
 min-height:100%;
 padding-bottom:20px;
@@ -26,6 +27,7 @@ padding-top:0px;
 padding-left:5px;
 margin-top:10px;
 margin-bottom:10px;
+clear:none;
 }
 h3{
 padding-top:0px;
@@ -38,8 +40,8 @@ font-family:palatino;
 color:white;
 background-color:black;
 height:70px;
-padding-left:15px;
-padding-right:15px;
+padding-left:36px;
+padding-right:36px;
 padding-top:5px;
 padding-bottom:5px;
 }
@@ -55,18 +57,29 @@ a{
 a:hover{
 }
 
+a.readmore{
+text-align:center;
+color:#8C2626;
+text-decoration:underline;
+}
+a.readmore:hover{
+color:#ca3d3d
+}
+
 ul.navbut{
 display:inline;
 margin:0;
 margin-top:5px;
 padding:0;
 padding-left:5px;
+width:750px;
 }
 
 li.navbut{
 font-family:palatino;
 display:inline;
 height:50px;
+width:100px;
 }
 
 a.titlebutton{
@@ -75,8 +88,8 @@ a.titlebutton{
 
 img.lecturethumb{
 float:left;
-width:50;
-height:50;
+width:65px;
+height:65px;
 margin:5px;
 }
 
@@ -94,6 +107,7 @@ height:400px;
 div.col1{
 width:640px;
 float:left;
+margin-right:5px;
 
 }
 
@@ -115,10 +129,11 @@ font-weight:bold;
 div.next{
 padding:5px;
 background-color:#E6E6E6;
+margin-bottom:5px;
 }
 div.nexttitle{
  background-color:#B5B5B5;
- height:60px;
+ height:75px;
  clear:both;
  margin-bottom:5px
 }
@@ -140,16 +155,26 @@ background-color:#B5B5B5;
 
 }
 
+div.largeinfo{
+background-color:#e6e6e6;
+}
+p{
+margin-left:5px;
+}
 div.upcoming{
 
-width:340px;
+width:342px;
 float:right;
 
 }
+
 div.titleupcoming{
 padding:2px;
 background-color:#B5B5B5;
 height:60px;
+}
+div.nexttitle:hover{
+background-color:#828282;
 }
 ul.upcoming{
 margin:0;
@@ -172,14 +197,31 @@ h4{
 margin:0;
 padding:0;
 }
+
+
+h5{
+font-size:100%;
+font-weight:bold;
+margin-top:0px;
+margin-bottom:5px;
+background-color:#B5B5B5;
+padding-left:5px;
+}
 div.upcominglist{
 background-color:#E6E6E6;
 padding:5px;
 
 }
 
+div.officerlist{
+width:342px;
+float:right;
+background-color:#E6E6E6;
+margin-top:5px;
+}
 div.footer{
-margin-left:20%;
+margin-left:auto;
+margin-right:auto;
 width:1000px;
 background-color:#E6E6E6;
 position: relative;
