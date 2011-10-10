@@ -12,7 +12,7 @@ margin-right:auto;
 background-color:white;
 min-height:100%;
 padding-bottom:20px;
-margin-bottom:20px;
+margin-bottom:15px;
 }
 
 div.header{
@@ -109,6 +109,7 @@ div.col1{
 width:641px;
 float:left;
 margin-right:5px;
+height:400px;
 
 }
 
@@ -116,6 +117,7 @@ div.about{
 background-color:#E6E6E6;
 margin-bottom:5px;
 padding:5px;
+height:75px;
 }
 
 div.titlenext{
@@ -126,28 +128,36 @@ padding-bottom:2px;
 font-size:100%;
 font-family:Verdana;
 font-weight:bold;
+height:21px;
 }
+
 div.next{
+height:275px;
 padding:5px;
 background-color:#E6E6E6;
 margin-bottom:5px;
 }
+
 div.nexttitle{
  background-color:#B5B5B5;
  height:75px;
  clear:both;
  margin-bottom:5px
 }
+
 div.nexttitletext{
 float:left;
 padding-top:10px;
 padding-left:5px;
 }
+
 div.nextabstract{
 padding-left:10px;
 padding-right:10px;
 padding-bottom:10px;
+height:165px;
 }
+
 div.nextinfo{
 padding-left:5px;
 
@@ -164,6 +174,8 @@ margin-top:5px;
 p{
 margin-left:5px;
 }
+
+
 div.upcoming{
 
 width:342px;
@@ -183,7 +195,7 @@ ul.upcoming{
 margin:0;
 list-style:none;
 padding-left:0px;
-height:318px;
+height:326px;
 overflow:auto;
 
 }
@@ -232,8 +244,21 @@ width:1000px;
 background-color:#E6E6E6;
 position: relative;
 margin-top: -60px; /* negative value of footer height */
-height:60px;
-clear:both;    
+height:70px;
+clear:both;   
 }
 
+div.middletop{
+height:400px;
+}
 
+p.address{
+font-size:75%;
+float:left;
+padding-left:5px;
+}
+p.attr{
+font-size:75%;
+float:right;
+padding-right:5px;
+}
